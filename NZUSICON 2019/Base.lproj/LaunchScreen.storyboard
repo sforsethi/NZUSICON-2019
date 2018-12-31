@@ -1,7 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -13,13 +17,68 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pariChowk" translatesAutoresizingMaskIntoConstraints="NO" id="YBe-ib-ztt">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="eSY-eG-gFg">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gyg-UA-JG5">
+                                <rect key="frame" x="67" y="193" width="241" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="241" id="EIt-kS-HGp"/>
+                                    <constraint firstAttribute="height" constant="128" id="dgN-Ov-XoK"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SPLASHPAGE" translatesAutoresizingMaskIntoConstraints="NO" id="mJH-5q-7SR">
+                                <rect key="frame" x="67.5" y="320" width="240" height="123"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="CIT-p6-hfn"/>
+                                    <constraint firstAttribute="height" constant="123" id="Kub-6d-CDR"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="textsplash" translatesAutoresizingMaskIntoConstraints="NO" id="FBz-xP-voe">
+                                <rect key="frame" x="49" y="447" width="277" height="51"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="277" id="seh-wo-NsI"/>
+                                    <constraint firstAttribute="height" constant="51" id="t9b-gw-nLZ"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="eSY-eG-gFg" secondAttribute="trailing" id="1H4-DZ-Eau"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="YBe-ib-ztt" secondAttribute="bottom" id="2lV-eu-hss"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="eSY-eG-gFg" secondAttribute="bottom" id="3yh-28-L7F"/>
+                            <constraint firstItem="FBz-xP-voe" firstAttribute="centerX" secondItem="eSY-eG-gFg" secondAttribute="centerX" id="DE5-gm-YTI"/>
+                            <constraint firstItem="mJH-5q-7SR" firstAttribute="centerX" secondItem="eSY-eG-gFg" secondAttribute="centerX" id="EKW-Fs-nPk"/>
+                            <constraint firstItem="eSY-eG-gFg" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="RoC-V5-8KP"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="gyg-UA-JG5" secondAttribute="trailing" constant="67" id="T5h-qX-dTd"/>
+                            <constraint firstItem="eSY-eG-gFg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="cUj-E1-6rf"/>
+                            <constraint firstItem="gyg-UA-JG5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="67" id="cYz-OW-H71"/>
+                            <constraint firstItem="FBz-xP-voe" firstAttribute="top" secondItem="mJH-5q-7SR" secondAttribute="bottom" constant="4" id="iht-dk-GEG"/>
+                            <constraint firstItem="gyg-UA-JG5" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="173" id="kru-e4-gwk"/>
+                            <constraint firstItem="YBe-ib-ztt" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="lj0-go-I9g"/>
+                            <constraint firstItem="mJH-5q-7SR" firstAttribute="top" secondItem="gyg-UA-JG5" secondAttribute="bottom" constant="-1" id="oYq-Kz-510"/>
+                            <constraint firstItem="gyg-UA-JG5" firstAttribute="centerX" secondItem="eSY-eG-gFg" secondAttribute="centerX" id="q32-1L-Noe"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="YBe-ib-ztt" secondAttribute="trailing" id="rII-P5-tny"/>
+                            <constraint firstItem="YBe-ib-ztt" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="wUm-3s-mcj"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="SPLASHPAGE" width="269" height="127"/>
+        <image name="bg" width="800" height="1280"/>
+        <image name="logo" width="242" height="242"/>
+        <image name="pariChowk" width="221" height="448"/>
+        <image name="textsplash" width="350" height="60"/>
+    </resources>
 </document>

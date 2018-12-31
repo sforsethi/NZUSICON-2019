@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC3DCBA021DA04CC00D7ECCE /* RegistrationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3DCB9F21DA04CC00D7ECCE /* RegistrationVC.swift */; };
+		BCBA418E21CCFA21007DAAE2 /* NZUCouncilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBA418D21CCFA21007DAAE2 /* NZUCouncilViewController.swift */; };
+		BCBA419021CCFC81007DAAE2 /* CouncilCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBA418F21CCFC81007DAAE2 /* CouncilCell.swift */; };
+		BCBA419221CD0ECD007DAAE2 /* VenueVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBA419121CD0ECD007DAAE2 /* VenueVC.swift */; };
+		BCBA419421CD1EAF007DAAE2 /* CommitteeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBA419321CD1EAF007DAAE2 /* CommitteeVC.swift */; };
 		BCDA680221C8ED050052EE32 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCDA680121C8ED050052EE32 /* AppDelegate.swift */; };
 		BCDA680421C8ED050052EE32 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCDA680321C8ED050052EE32 /* ViewController.swift */; };
 		BCDA680721C8ED050052EE32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCDA680521C8ED050052EE32 /* Main.storyboard */; };
@@ -15,6 +20,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BC3DCB9F21DA04CC00D7ECCE /* RegistrationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationVC.swift; sourceTree = "<group>"; };
+		BCBA418D21CCFA21007DAAE2 /* NZUCouncilViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NZUCouncilViewController.swift; sourceTree = "<group>"; };
+		BCBA418F21CCFC81007DAAE2 /* CouncilCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CouncilCell.swift; sourceTree = "<group>"; };
+		BCBA419121CD0ECD007DAAE2 /* VenueVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueVC.swift; sourceTree = "<group>"; };
+		BCBA419321CD1EAF007DAAE2 /* CommitteeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommitteeVC.swift; sourceTree = "<group>"; };
 		BCDA67FE21C8ED050052EE32 /* NZUSICON 2019.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NZUSICON 2019.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCDA680121C8ED050052EE32 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BCDA680321C8ED050052EE32 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +70,11 @@
 				BCDA680821C8ED080052EE32 /* Assets.xcassets */,
 				BCDA680A21C8ED080052EE32 /* LaunchScreen.storyboard */,
 				BCDA680D21C8ED080052EE32 /* Info.plist */,
+				BCBA418D21CCFA21007DAAE2 /* NZUCouncilViewController.swift */,
+				BCBA418F21CCFC81007DAAE2 /* CouncilCell.swift */,
+				BCBA419121CD0ECD007DAAE2 /* VenueVC.swift */,
+				BCBA419321CD1EAF007DAAE2 /* CommitteeVC.swift */,
+				BC3DCB9F21DA04CC00D7ECCE /* RegistrationVC.swift */,
 			);
 			path = "NZUSICON 2019";
 			sourceTree = "<group>";
@@ -135,7 +150,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCBA419221CD0ECD007DAAE2 /* VenueVC.swift in Sources */,
 				BCDA680421C8ED050052EE32 /* ViewController.swift in Sources */,
+				BCBA419421CD1EAF007DAAE2 /* CommitteeVC.swift in Sources */,
+				BCBA419021CCFC81007DAAE2 /* CouncilCell.swift in Sources */,
+				BCBA418E21CCFA21007DAAE2 /* NZUCouncilViewController.swift in Sources */,
+				BC3DCBA021DA04CC00D7ECCE /* RegistrationVC.swift in Sources */,
 				BCDA680221C8ED050052EE32 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,7 +302,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 464HGZ97VY;
 				INFOPLIST_FILE = "NZUSICON 2019/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -290,8 +312,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "raghavsethi.com.NZUSICON-2019";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -299,7 +322,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 464HGZ97VY;
 				INFOPLIST_FILE = "NZUSICON 2019/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -307,8 +332,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "raghavsethi.com.NZUSICON-2019";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
