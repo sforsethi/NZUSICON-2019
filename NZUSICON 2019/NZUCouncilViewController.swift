@@ -11,7 +11,7 @@ import UIKit
 class NZUCouncilViewController: UIViewController {
     @IBOutlet weak var imageView: UIImageView!
     
-    let images = ["Council","CouncilMembers","northZone"]
+    let images = ["nzusiconCouncil","CouncilMembers","northZone"]
     let menu = ["NZUSICON Council","Council Members","USI Council Member(North Zone)"]
     
     override func viewDidLoad() {

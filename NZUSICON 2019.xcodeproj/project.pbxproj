@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC35908121DDDEC2003ACB31 /* ContactUsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC35908021DDDEC2003ACB31 /* ContactUsVC.swift */; };
 		BC3DCBA021DA04CC00D7ECCE /* RegistrationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3DCB9F21DA04CC00D7ECCE /* RegistrationVC.swift */; };
 		BCBA418E21CCFA21007DAAE2 /* NZUCouncilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBA418D21CCFA21007DAAE2 /* NZUCouncilViewController.swift */; };
 		BCBA419021CCFC81007DAAE2 /* CouncilCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCBA418F21CCFC81007DAAE2 /* CouncilCell.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BC35908021DDDEC2003ACB31 /* ContactUsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactUsVC.swift; sourceTree = "<group>"; };
 		BC3DCB9F21DA04CC00D7ECCE /* RegistrationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationVC.swift; sourceTree = "<group>"; };
 		BCBA418D21CCFA21007DAAE2 /* NZUCouncilViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NZUCouncilViewController.swift; sourceTree = "<group>"; };
 		BCBA418F21CCFC81007DAAE2 /* CouncilCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CouncilCell.swift; sourceTree = "<group>"; };
@@ -75,6 +77,7 @@
 				BCBA419121CD0ECD007DAAE2 /* VenueVC.swift */,
 				BCBA419321CD1EAF007DAAE2 /* CommitteeVC.swift */,
 				BC3DCB9F21DA04CC00D7ECCE /* RegistrationVC.swift */,
+				BC35908021DDDEC2003ACB31 /* ContactUsVC.swift */,
 			);
 			path = "NZUSICON 2019";
 			sourceTree = "<group>";
@@ -151,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BCBA419221CD0ECD007DAAE2 /* VenueVC.swift in Sources */,
+				BC35908121DDDEC2003ACB31 /* ContactUsVC.swift in Sources */,
 				BCDA680421C8ED050052EE32 /* ViewController.swift in Sources */,
 				BCBA419421CD1EAF007DAAE2 /* CommitteeVC.swift in Sources */,
 				BCBA419021CCFC81007DAAE2 /* CouncilCell.swift in Sources */,
@@ -304,13 +308,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 464HGZ97VY;
+				DEVELOPMENT_TEAM = DG55724823;
 				INFOPLIST_FILE = "NZUSICON 2019/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "raghavsethi.com.NZUSICON-2019";
+				PRODUCT_BUNDLE_IDENTIFIER = "vineet.avvn.NZUSICON-2019";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
@@ -324,13 +328,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 464HGZ97VY;
+				DEVELOPMENT_TEAM = DG55724823;
 				INFOPLIST_FILE = "NZUSICON 2019/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "raghavsethi.com.NZUSICON-2019";
+				PRODUCT_BUNDLE_IDENTIFIER = "vineet.avvn.NZUSICON-2019";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
