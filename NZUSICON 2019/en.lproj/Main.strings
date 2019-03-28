@@ -1,0 +1,108 @@
+
+/* Class = "UIButton"; normalTitle = "SUNG"; ObjectID = "3H2-wV-a12"; */
+"3H2-wV-a12.normalTitle" = "SUNG";
+
+/* Class = "UILabel"; text = "INVITATION"; ObjectID = "6oM-7B-mzO"; */
+"6oM-7B-mzO.text" = "INVITATION";
+
+/* Class = "UIBarButtonItem"; title = " Back"; ObjectID = "8Ka-Rl-je9"; */
+"8Ka-Rl-je9.title" = " Back";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "D9u-3d-52j"; */
+"D9u-3d-52j.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "DPZ-r0-mG7"; */
+"DPZ-r0-mG7.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Jtl-hT-jy3"; */
+"Jtl-hT-jy3.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "L11-b2-tdX"; */
+"L11-b2-tdX.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "TRAVEL"; ObjectID = "LQV-7k-9aY"; */
+"LQV-7k-9aY.text" = "TRAVEL";
+
+/* Class = "UILabel"; text = "It gives us immense pleasure to welcome you all to the 29th annual conference of NZUSI to be held from 15th to 17th November, 2019 at Noida, India.\n\nThis conference will be a unique combination of two and a half day of academic fiesta and two nights of cultural extravaganza which will leave an unforgettable memory for the attendees. We have plans for spouses and children to enjoy to the maximum possible extent. We will ensure best hospitality and stay for you."; ObjectID = "MaS-TU-e1B"; */
+"MaS-TU-e1B.text" = "It gives us immense pleasure to welcome you all to the 29th annual conference of NZUSI to be held from 15th to 17th November, 2019 at Noida, India.\n\nThis conference will be a unique combination of two and a half day of academic fiesta and two nights of cultural extravaganza which will leave an unforgettable memory for the attendees. We have plans for spouses and children to enjoy to the maximum possible extent. We will ensure best hospitality and stay for you.";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "O7B-UX-9hD"; */
+"O7B-UX-9hD.normalTitle" = "Button";
+
+/* Class = "UITextField"; placeholder = "Subject"; ObjectID = "Oj4-Ka-m1B"; */
+"Oj4-Ka-m1B.placeholder" = "Subject";
+
+/* Class = "UITextField"; placeholder = "Your Email"; ObjectID = "R3I-ES-7yK"; */
+"R3I-ES-7yK.placeholder" = "Your Email";
+
+/* Class = "UITextField"; placeholder = "Phone No."; ObjectID = "SrO-pd-CGh"; */
+"SrO-pd-CGh.placeholder" = "Phone No.";
+
+/* Class = "UILabel"; text = "SUNG (SOCIETY OF UROLOGISTS NOIDA AND GHAZIABAD)\n"; ObjectID = "StC-3Q-LFB"; */
+"StC-3Q-LFB.text" = "SUNG (SOCIETY OF UROLOGISTS NOIDA AND GHAZIABAD)\n";
+
+/* Class = "UILabel"; text = "WELCOME TO NZUSICON 2019, NOIDA"; ObjectID = "Ut6-ga-R3F"; */
+"Ut6-ga-R3F.text" = "WELCOME TO NZUSICON 2019, NOIDA";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "WTB-M9-rFa"; */
+"WTB-M9-rFa.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "ZtL-wu-omF"; */
+"ZtL-wu-omF.normalTitle" = "Button";
+
+/* Class = "UITextField"; placeholder = "Your Name"; ObjectID = "a2r-93-Al0"; */
+"a2r-93-Al0.placeholder" = "Your Name";
+
+/* Class = "UILabel"; text = "VENUE"; ObjectID = "b5R-aG-900"; */
+"b5R-aG-900.text" = "VENUE";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "bBo-FV-yaD"; */
+"bBo-FV-yaD.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "cYJ-nf-Fxn"; */
+"cYJ-nf-Fxn.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "We're Here To Help!"; ObjectID = "ccH-5P-IdV"; */
+"ccH-5P-IdV.text" = "We're Here To Help!";
+
+/* Class = "UITextField"; placeholder = "Message"; ObjectID = "dxL-HJ-GkQ"; */
+"dxL-HJ-GkQ.placeholder" = "Message";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "ePY-w2-YkV"; */
+"ePY-w2-YkV.text" = "Label";
+
+/* Class = "UILabel"; text = "Crowne Plaza Greater Noida\nSurajpur Chowk, Institutional Green 1,\nLakhnawali, Greater Noida,\nUttar Pradesh - 201306"; ObjectID = "fF9-ku-RLF"; */
+"fF9-ku-RLF.text" = "Crowne Plaza Greater Noida\nSurajpur Chowk, Institutional Green 1,\nLakhnawali, Greater Noida,\nUttar Pradesh - 201306";
+
+/* Class = "UILabel"; text = "CONTACT US"; ObjectID = "gsB-ch-jGA"; */
+"gsB-ch-jGA.text" = "CONTACT US";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "lLA-8m-9yZ"; */
+"lLA-8m-9yZ.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "STALL SPONSORSHIP TARIFF"; ObjectID = "rCa-It-IVL"; */
+"rCa-It-IVL.text" = "STALL SPONSORSHIP TARIFF";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "rrk-Fj-syg"; */
+"rrk-Fj-syg.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "This Society was found five years back with the aim to organize the Urologists in Noida and Ghaziabad under one platform to provide best possible urological care to the people.                                               \nVarious activities have taken place under its banner including:\n-Conference/academic meets\n-Urological health check up camps\n-Treatment of EWS( Economic weaker  section)\n-Plantation of tree\n-Families get together\n"; ObjectID = "tVL-cD-i29"; */
+"tVL-cD-i29.text" = "This Society was found five years back with the aim to organize the Urologists in Noida and Ghaziabad under one platform to provide best possible urological care to the people.                                               \nVarious activities have taken place under its banner including:\n-Conference/academic meets\n-Urological health check up camps\n-Treatment of EWS( Economic weaker  section)\n-Plantation of tree\n-Families get together\n";
+
+/* Class = "UIButton"; normalTitle = "SUBMIT"; ObjectID = "udo-fI-VFz"; */
+"udo-fI-VFz.normalTitle" = "SUBMIT";
+
+/* Class = "UILabel"; text = "REGISTRATION"; ObjectID = "vM3-2i-f78"; */
+"vM3-2i-f78.text" = "REGISTRATION";
+
+/* Class = "UINavigationItem"; title = "NZUSICON 2019"; ObjectID = "xNN-6E-ept"; */
+"xNN-6E-ept.title" = "NZUSICON 2019";
+
+/* Class = "UILabel"; text = "It gives us immense pleasure to welcome you all to the 29th annual conference of NZUSI to be held from 15th to 17th November, 2019 at Noida, \nthe Manchester of India.\n\nThis conference will be a unique combination of two and a half day of academic fiesta and two nights of cultural extravaganza which will leave an unforgettable memory for the attendees. We will ensure best \nhospitality and stay for you."; ObjectID = "yQH-5o-vje"; */
+"yQH-5o-vje.text" = "It gives us immense pleasure to welcome you all to the 29th annual conference of NZUSI to be held from 15th to 17th November, 2019 at Noida, \nthe Manchester of India.\n\nThis conference will be a unique combination of two and a half day of academic fiesta and two nights of cultural extravaganza which will leave an unforgettable memory for the attendees. We will ensure best \nhospitality and stay for you.";
+
+/* Class = "UILabel"; text = "COMMITTEES"; ObjectID = "yVS-6C-8p3"; */
+"yVS-6C-8p3.text" = "COMMITTEES";
+
+/* Class = "UILabel"; text = "EXHIBITION PLAN"; ObjectID = "ysb-3x-h4z"; */
+"ysb-3x-h4z.text" = "EXHIBITION PLAN";
